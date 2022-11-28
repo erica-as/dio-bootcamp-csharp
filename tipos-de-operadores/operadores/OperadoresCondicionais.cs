@@ -7,7 +7,6 @@ namespace tipos_de_operadores.operadores
 {
     public class OperadoresCondicionais
     {
-        //breakpoint + f5 para iniciar + f10 para continuar
         int quantidadeEstoque = 4;
         int quantidadeCompra = 5;
 
