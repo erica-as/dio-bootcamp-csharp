@@ -10,7 +10,7 @@ namespace operadores_aritmeticos
         {
             Calculadora calculadoraBasica = new Calculadora();
 
-            Console.WriteLine("CALCULADORA");
+            Console.WriteLine("CALCULADORA ");
             calculadoraBasica.Somar(5, 10);
             calculadoraBasica.Subtrair(10, 5);
             calculadoraBasica.Multiplicar(3, 2);
