@@ -9,6 +9,7 @@ namespace tipos_de_operadores
         {
             OperadoresAtribuicao operadoresAtribuicao = new OperadoresAtribuicao();
             OperadoresCondicionais operadoresCondicionais = new OperadoresCondicionais();
+            OperadoresLogicos operadoresLogicos = new OperadoresLogicos();
 
             Console.WriteLine("Operadores de Atribuicao: \n");
             operadoresAtribuicao.ConverterTiposvariaveis();
@@ -20,6 +21,10 @@ namespace tipos_de_operadores
             operadoresCondicionais.IfAninhado();
             operadoresCondicionais.ApredendoSwitchCase();
 
+            Console.WriteLine("Operadores Lógicos: \n");
+            operadoresLogicos.OperatorOr();
+            operadoresLogicos.OperatorAnd();
+            operadoresLogicos.OperatorNot();
         }
     }
 }
