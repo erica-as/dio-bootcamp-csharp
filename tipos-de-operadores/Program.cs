@@ -9,7 +9,11 @@ namespace tipos_de_operadores
         {
             OperadoresAtribuicao operadoresAtribuicao = new OperadoresAtribuicao();
 
+            Console.WriteLine("Operadores de Atribuicao: ");
             operadoresAtribuicao.ConverterTiposvariaveis();
+            operadoresAtribuicao.CastImplicito();
+            operadoresAtribuicao.ConversaoSegura();
+            Console.WriteLine("-------------");
         }
     }
 }
