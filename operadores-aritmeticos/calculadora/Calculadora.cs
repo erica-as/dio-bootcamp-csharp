@@ -57,5 +57,12 @@ namespace operadores_aritmeticos.calculadora
             double tangente = Math.Tan(radiano);
             Console.WriteLine($"Tangente de {angulo} = {Math.Round(tangente, 2)}.");
         }
+
+        public void RaizQuadrada(double x)
+        {
+            //Utilizamos a classe Math e acessamos o método Sqrt que realiza o calculo da raiz quadrada.
+            double raiz = Math.Sqrt(x);
+            Console.WriteLine($"Raiz de {x} é {raiz}");
+        }
     }
 }
