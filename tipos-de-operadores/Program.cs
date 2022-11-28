@@ -1,4 +1,5 @@
 ﻿using System;
+using tipos_de_operadores.operadores;
 
 namespace tipos_de_operadores
 {
@@ -6,7 +7,9 @@ namespace tipos_de_operadores
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            OperadoresAtribuicao operadoresAtribuicao = new OperadoresAtribuicao();
+
+            operadoresAtribuicao.ConverterTiposvariaveis();
         }
     }
 }
