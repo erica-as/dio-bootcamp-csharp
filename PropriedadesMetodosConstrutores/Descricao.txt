@@ -1,0 +1,18 @@
+PROPRIEDADES: 
+
+Propriedades permitem que uma classe exponha uma forma pública de obter e definir valores, sem a
+necessidade de implementação ou verificação obrigátoria. 
+
+Atalho para criar uma propriedade => 
+1. prop + tab
+2. Os nomes das propriedades sempre sempre devem começar com letra maiúscula seguindo a nomeclatura CamelCase.
+
+MÉTODOS: 
+
+Os métodos GET e SET são usados para obter ou definir os valores de uma propriedade. Caso necessário, é possível criar 
+validações para definição de um SET. 
+
+Para criar validações => 
+1. Body expressions: (=>)
+2. Operadores condicionais 
+
