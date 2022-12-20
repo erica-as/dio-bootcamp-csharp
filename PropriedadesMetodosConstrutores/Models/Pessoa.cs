@@ -10,8 +10,6 @@ namespace PropriedadesMetodosConstrutores.Models
         public string _nome;
         public int MyProperty { get; set; }
 
-        //O método get OBTEM o valor de uma propriedade
-        //O métod set ATRIBUI o valor a uma propriedade
         public string Nome 
         { 
             get

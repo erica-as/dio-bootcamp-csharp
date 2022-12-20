@@ -1,7 +1,7 @@
 PROPRIEDADES: 
 
 Propriedades permitem que uma classe exponha uma forma pública de obter e definir valores, sem a
-necessidade de implementação ou verificação obrigátoria. 
+necessidade de implementação ou verificação obrigatória. 
 
 Atalho para criar uma propriedade => 
 1. prop + tab

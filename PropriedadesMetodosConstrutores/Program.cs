@@ -9,7 +9,7 @@ namespace PropriedadesMetodosConstrutores
         {
             Pessoa pessoa = new Pessoa();
 
-            pessoa.Nome = "Érica";
+            pessoa.Nome = "Camilla";
             pessoa.Idade = 21;
 
             pessoa.Apresentar();
