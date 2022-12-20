@@ -16,3 +16,11 @@ Para criar validações =>
 1. Body expressions: (=>)
 2. Operadores condicionais 
 
+TIPOS DE CLASSES, PROPRIEDADES E MÉTODOS:
+
+Public => Ele pode ser usado por qualquer classe pode acessar o instancuiar essa propriedade.
+Private => Ele só pode ser acessado dentro da classe.  
+
+DIFERENÇAS ENTRE CAMPO E PROPRIEDADES: 
+
+Necessariamente, uma propriedade tem que ter um get ou set, o campo não é necessário, apenas a definição do tipo do campo e o nome.

@@ -7,7 +7,9 @@ namespace PropriedadesMetodosConstrutores.Models
 {
     public class Pessoa
     {
-        public string _nome;
+        private string _nome;
+        private int _idade;
+
         public int MyProperty { get; set; }
 
         public string Nome 
@@ -28,7 +30,22 @@ namespace PropriedadesMetodosConstrutores.Models
             } 
         }
 
-        public int Idade { get; set; }
+        public int Idade 
+        { 
+            get
+            {
+                return _idade;
+            }
+            set
+            {
+                if(value < 0)
+                {
+                  throw new ArgumentException("A sua idade não pode ser negativa! Tente outra vez.");  
+                }
+                _idade = value;
+            }
+        
+        }
 
         public void Apresentar()
         {
